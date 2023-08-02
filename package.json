@@ -1,0 +1,56 @@
+{
+  "name": "bg-manager",
+  "version": "1.0.2",
+  "description": "BgManager",
+  "author": "Quanvt",
+  "homepage": "",
+  "copyright": "Copyright 2020 Quanvt",
+  "private": true,
+  "dependencies": {
+    "ag-grid-community": "^24.1.0",
+    "ag-grid-react": "^24.1.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.7.3",
+    "classnames": "^2.2.6",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "lodash.clonedeep": "^4.5.0",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.8.1",
+    "react-bootstrap-typeahead": "^5.1.4",
+    "react-chartjs-2": "2.6.4",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "^16.8.1",
+    "react-dropzone": "^11.2.4",
+    "react-export-excel": "^0.5.3",
+    "react-feather": "^1.1.6",
+    "react-fontawesome": "1.6.1",
+    "react-idle-timer": "^4.5.2",
+    "react-portal-tooltip": "^2.4.7",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "2.1.3",
+    "react-table": "^7.6.2",
+    "react-toastify": "^6.2.0",
+    "reactstrap": "6.4.0",
+    "sweetalert": "^2.1.2",
+    "universal-cookie": "^4.0.4"
+  },
+  "scripts": {
+    "start": "node generate-build.js && react-scripts start",
+    "release": "node generate-release.js && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

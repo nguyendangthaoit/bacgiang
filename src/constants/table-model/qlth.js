@@ -1,0 +1,22 @@
+const model = [
+    { field: 'stt', text: 'Stt', enableFilter: false, enableSort: true },
+    { field: 'subscription', text: 'Thuê Bao', enableFilter: true, enableSort: true },
+    { field: 'ctsNumber', text: 'Số Hiệu CTS', enableFilter: true, enableSort: true },
+    { field: 'email', text: 'Email', enableFilter: true, enableSort: true },
+    { field: 'agencyLevel1', text: 'Tên Cơ Quan Cấp 1', enableFilter: true, enableSort: true },
+    { field: 'agencyLevel2', text: 'Tên Cơ Quan Cấp 2', enableFilter: true, enableSort: true },
+    { field: 'agencyLevel3', text: 'Tên Cơ Quan Cấp 3', enableFilter: true, enableSort: true },
+    { field: 'agencyLevel4', text: 'Tên Cơ Quan Cấp 4', enableFilter: true, enableSort: true },
+    { field: 'province', text: 'Tỉnh/Thành', enableFilter: true, enableSort: true },
+    { field: 'reason', text: 'Lý Do', enableFilter: true, enableSort: true },
+    { field: 'cvUnit', text: 'CV Đơn Vị', enableFilter: true, enableSort: true },
+    { field: 'cvDvDateTime', text: 'Ngày CV ĐV', enableFilter: true, enableSort: true, type: 'date' },
+    { field: 'cvCucCTSBMTT', text: 'CV Cục CTSBMTT', enableFilter: false, enableSort: true },
+    { field: 'cvCucCTSBMTTDateTime', text: 'Ngày CV Cục CTSBMTT', enableFilter: true, enableSort: true, type: 'date' },
+    { field: 'rollbackDeviceStatus', text: 'Trạng Thái Thu Hồi Thiết Bị', enableFilter: true, enableSort: true },
+    { field: 'deviceNumber', text: 'Số Hiệu Thiết Bị', enableFilter: true, enableSort: true },
+    { field: 'contact', text: 'Đầu Mối Liên Hệ', enableFilter: true, enableSort: true },
+    { field: 'note', text: 'Ghi Chú', enableFilter: true, enableSort: true },
+    { field: '', text: 'Hành Động', enableFilter: false, enableSort: true, isHidden: true },
+]
+export default model;

@@ -1,0 +1,23 @@
+const model = [
+    { field: 'stt', text: 'Stt', enableFilter: false, enableSort: true },
+    { field: 'subscription', text: 'Thuê Bao', enableFilter: true, enableSort: true, isExtendInfo: true },
+    { field: 'email', text: 'Email', enableFilter: true, enableSort: true },
+    { field: 'agencyLevel1', text: 'Tên Cơ Quan Cấp 1', enableFilter: true, enableSort: true },
+    { field: 'agencyLevel2', text: 'Tên Cơ Quan Cấp 2', enableFilter: true, enableSort: true },
+    { field: 'agencyLevel3', text: 'Tên Cơ Quan Cấp 3', enableFilter: true, enableSort: true },
+    { field: 'agencyLevel4', text: 'Tên Cơ Quan Cấp 4', enableFilter: true, enableSort: true },
+    { field: 'province', text: 'Tỉnh/Thành', enableFilter: true, enableSort: true },
+    { field: 'position', text: 'Chức Vụ', enableFilter: true, enableSort: true },
+    { field: 'ctsCode', text: 'Mã Số CTS', enableFilter: true, enableSort: true },
+    { field: 'subscriptionCode', text: 'Mã Số TB', enableFilter: true, enableSort: true },
+    { field: 'createdAt', text: 'Ngày Cấp', enableFilter: true, enableSort: true, type: 'date' },
+    { field: 'expiredAt', text: 'Ngày Hết Hạn', enableFilter: true, enableSort: true, type: 'date' },
+    { field: 'ctsType', text: 'Loại CTS', enableFilter: true, enableSort: true },
+    { field: 'tblkType', text: 'Loại TBLK', enableFilter: true, enableSort: true },
+    { field: 'tdttStatus', text: 'Trạng Thái TĐTT', enableFilter: true, enableSort: true },
+    { field: 'rollbackCtsStatus', text: 'Trạng Thái Thu Hồi CTS', enableFilter: true, enableSort: true },
+    { field: 'extendStatus', text: 'Trạng Thái Gia Hạn', enableFilter: true, enableSort: true },
+    { field: 'note', text: 'Ghi Chú', enableFilter: true, enableSort: true },
+    { field: '', text: 'Hành Động', enableFilter: false, enableSort: true, isHidden: true },
+]
+export default model;
